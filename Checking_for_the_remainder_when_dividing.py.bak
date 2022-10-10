@@ -1,0 +1,6 @@
+def squereRectangle():
+    print("Находим площадь прямоугольника по введенным данным")
+    length = int(input("Введите длинну прямоугольника:"))
+    width = int(input("Введите ширину прямоугольника:"))
+    S = length * width
+    print(S)

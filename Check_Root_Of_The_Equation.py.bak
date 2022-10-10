@@ -1,0 +1,7 @@
+def checkRenge():
+    print("Проверяем входит ли заданное значение в  диапозон от -5 до 10")
+    point = int(input("введите искомое значение:"))
+    if point >= -5 and point <= 10:
+        print("True")
+    else:
+        print("False")

@@ -1,0 +1,7 @@
+def getHepotenuse():
+    print("Находим значение гипотенузы из введенных значений катетов")
+    leg_1 = int(input("Введите длинну первого катета:"))
+    leg_2 = int(input("Введите длинну второго катета:"))
+    hypotenuse = ((leg_1**2 + leg_2**2) ** (1/2))
+    hypotenuse = float('{:.2f}'.format(hypotenuse))
+    print(hypotenuse)
